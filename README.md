@@ -17,7 +17,7 @@ Zorro is a Retrieval-Augmented Generation (RAG) AI chatbot backend designed for 
 
 - **Anthropic API Key**: Required for accessing the Claude Haiku language model.  
 - **OpenAI API Key**: Required for generating embeddings.  
-- **OpenWeather API Key**: Required for weather queries.  
+- **OpenWeather API Key**: Optional for weather queries.  
 
 ## Usage Instructions  
 
