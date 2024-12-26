@@ -1,0 +1,13 @@
+python-dotenv==1.0.0       # For loading environment variables
+pandas==2.1.1              # For handling dataframes
+PyPDF2==3.0.1              # For extracting text from PDFs
+chardet==5.2.0             # For detecting file encodings
+langchain-openai==0.2.0           # LangChain OpenAI integration
+langchain-anthropic==0.2.1        # LangChain Anthropic integration
+langchain-core==0.3.1             # LangChain Core library
+langchain-chroma==0.1.4           # LangChain Chroma support
+mammoth==1.4.2             # For extracting text from DOCX files
+requests==2.31.0           # For HTTP requests
+chromadb==0.5.3           # Chroma vector database for embeddings
+langchain==0.3.0
+openpyxl>=3.1.2
