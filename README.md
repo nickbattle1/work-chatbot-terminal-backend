@@ -1,4 +1,4 @@
-# Zorro: Axent's Workplace RAG AI Chatbot  
+# Workplace RAG AI Chatbot Backend
 
 Zorro is a Retrieval-Augmented Generation (RAG) AI chatbot backend designed for Axent. It works out of the terminal as-is and can be connected to a custom frontend for full functionality. The prompt is tailored to Axent's specific needs but can be adapted for other businesses or applications.  
 
