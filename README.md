@@ -4,27 +4,44 @@ Zorro is a Retrieval-Augmented Generation (RAG) AI chatbot backend designed for 
 
 ## Key Features and Architecture  
 
-- Language Model: Utilizes Anthropic's Claude Haiku model for natural language processing and generation.  
-- Embedding Model: Employs OpenAI's embedding model for creating high-dimensional vector representations of data.  
-- Data Parsing and Formatting:  
+- **Language Model**: Utilizes Anthropic's Claude Haiku model for natural language processing and generation.  
+- **Embedding Model**: Employs OpenAI's embedding model for creating high-dimensional vector representations of data.  
+- **Data Parsing and Formatting**:  
   - Supports text-based data files such as JSON, CSV, Excel, Word, and PDF.  
   - Reformats files into a format compatible with the language model.  
-- Data Chunking and Storage: Processes large datasets by chunking them and embedding the information into a vector database for efficient querying.  
-- Customizable Prompt: The core prompt can be adapted to specific business needs, ensuring relevance across various applications.  
+- **Data Chunking and Storage**: Processes large datasets by chunking them and embedding the information into a vector database for efficient querying.  
+- **Customizable Prompt**: The core prompt can be adapted to specific business needs, ensuring relevance across various applications.  
 
 ## Requirements  
 
-- Anthropic API Key: Required for accessing the Claude Haiku language model.  
-- OpenAI API Key: Required for generating embeddings.  
-- Frontend Integration: A custom frontend is required to provide a user interface for interaction with the chatbot.  
+- **Anthropic API Key**: Required for accessing the Claude Haiku language model.  
+- **OpenAI API Key**: Required for generating embeddings.  
 
 ## Usage Instructions  
 
-1. Input your Anthropic API key and OpenAI API key into the Python code where indicated.  
-2. Create a folder named `docs` within the project directory.  
-3. Add your data files (e.g., JSON, CSV, Excel, Word, PDF) to the `docs` folder.  
-4. Customize the prompt in the code to align with your business or application requirements.  
-5. Run the Python script to initialize the backend.  
-6. Connect the backend to a frontend interface to enable end-user interaction.  
+1. **Install Required Libraries**:  
+   Install the necessary dependencies using:  
+   ```bash  
+   pip install -r requirements.txt  
+   ```  
 
-This backend processes, embeds, and retrieves data efficiently, serving as the foundation for an intelligent chatbot system tailored to your business needs.  
+2. **Input Your API Keys**:  
+   Open the `app.py` file and input your Anthropic API key and OpenAI API key where indicated.  
+
+3. **Prepare Data Files**:  
+   - Create a folder named `docs` within the project directory.  
+   - Add your data files (e.g., JSON, CSV, Excel, Word, PDF) to the `docs` folder.  
+
+4. **Customize the Prompt**:  
+   Modify the core prompt in the `app.py` file to align with your business or application requirements.  
+
+5. **Run the Backend**:  
+   Execute the Python script to initialize the backend system:  
+   ```bash  
+   python app.py  
+   ```  
+
+6. **Frontend Integration**:  
+   Connect the backend to a frontend interface to enable end-user interaction.  
+
+This backend processes, embeds, and retrieves data efficiently, serving as the foundation for an intelligent chatbot system tailored to your business needs.
