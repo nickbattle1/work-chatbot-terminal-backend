@@ -40,7 +40,7 @@ Zorro is a Retrieval-Augmented Generation (RAG) AI chatbot backend designed for 
    - Add your data files (e.g., JSON, CSV, Excel, Word, PDF) to the `docs` folder.  
 
 4. **Customize the Prompt**:  
-   Modify the core prompt in the `app.py` file to align with your business or application requirements.  
+   Modify the core prompt in the `app.py` file to align with your business or application requirements. I have left an example in there to give a starting point on the template.
 
 5. **Run the Backend**:  
    Execute the Python script to initialize the backend system:  
